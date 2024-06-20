@@ -31,9 +31,12 @@ The function "roots" receives 3 doubles and proceeds to calculate the discrimina
 [Recommended tutorial for CMake installation](https://www.youtube.com/watch?v=8_X5Iq9niDE)
 
 ### How to run the code
+> [!NOTE]
+> I recommend just cloning the CMakeLists.txt and findroots.cpp. Other files will be generated automatically with the CMake build commands.
+
 Once CMake and C++ have been correctly configured, you will need to set up the executable with CMake. 
 Create the CMakeLists.txt or just clone the one from this repository.
-In the terminal and on the same directory as the cpp file. Copy the following code, this will generate the CMake build files.
+**While on the same directory as the cpp file** copy the following code to the terminal, this will generate the CMake build files.
 ```
 cmake -S . -B build -G "MinGW Makefiles"
 ```
